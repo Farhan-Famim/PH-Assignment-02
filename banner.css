@@ -1,0 +1,286 @@
+.nav-bar{
+    width:100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+
+    padding: 22px 10px;
+}
+
+.nav-bar-logo{
+    width: 80px;
+}
+
+.nav-bar-logo img{
+    width: 100%;
+}
+
+.nav-bar-options{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 17px;
+}
+
+.nav-bar-options p{
+    font-size: 14px; 
+    font-weight: 550;
+    color: black;
+}
+
+.nav-bar-options p:hover{
+    color: var(--secondary-font);
+}
+
+.search-bar-container{
+    width: 220px;
+    height: 40px;
+}
+
+.search-bar{
+    width: 100%;
+    height: 100%;
+
+    border: 1px solid darkslategray;
+    border-radius: 20px;
+
+    padding-left: 10px;
+}
+
+.search-bar::placeholder{
+    font-size: 15px; 
+}
+
+/*___________________________________________________________________________*/
+
+.banner-container{
+    margin-top: 50px; 
+}
+
+.banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.banner-texts{
+    display: flex;
+    flex-direction: column;
+}
+
+.bike-delivery{
+    width: 180px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background: linear-gradient(to right, rgb(239, 196, 117), rgb(247, 216, 157));
+    border-radius: 25px;
+    
+    padding: 4px 5px; 
+}
+
+.bike-delivery p{
+    font-size: 16px;
+    font-weight: 600;
+    color: orangered;
+
+    padding-left: 6px;
+}
+
+.bike-delivery img{
+    height: 45px;
+    border-radius: 50%;
+}
+
+.banner-title{
+    font-size: 72px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    margin-top: 40px  ;
+}
+
+.banner-bio{
+    width: 450px;
+
+    font-size: 15px;
+    font-weight: 500;  
+    letter-spacing: 0.5px;
+
+    margin-top: 35px;
+}
+
+.banner-order{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin-top: 45px;
+}
+
+.banner-order-1{
+    width: 150px;
+    height: 46px;
+
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+
+    background: linear-gradient(180deg, #EFAB68 0%, #F48E28 100%);
+    border: none;
+    border-radius: 8px; 
+
+    margin-right: 35px;
+}
+
+.banner-order-1:hover{
+    background: linear-gradient(180deg, #e5984a 0%, #ee7e0f 100%);
+    cursor: pointer;
+}
+
+.banner-order-2{
+    width: 190px;
+    height: 58px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 4px;
+}
+
+.banner-order-2 img{
+    height: 100%; 
+}
+
+.banner-order-2 p{
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.5px; 
+}
+
+.banner-order-2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.banner-images{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.banner-images-row-1, 
+.banner-images-row-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+
+.banner-images-row-1 img,
+.banner-images-row-2 img{
+    width: 230px; 
+}
+
+.banner-images-row-1 img:hover,
+.banner-images-row-2 img:hover{
+   cursor: pointer; 
+}
+
+
+
+.banner-info-container{
+    display: flex;
+    justify-content: center;
+}
+
+.banner-info{
+    width: 900px;
+    height: 150px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:center; 
+    align-items: center; 
+
+    border: 0.5px solid rgba(214, 214, 214, 0.968);
+    border-radius: 16px;
+    box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.109);
+
+    margin-top: 80px; 
+}
+
+.open-hours-card,
+.location-card,
+.contact-card{
+    height: 90px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+
+    padding: 15px 65px;
+}
+
+.location-card{
+    border-right: 2px solid rgb(204, 202, 202);
+    border-left: 2px solid rgb(204, 202, 202);
+}
+
+.info-card-primary-text{
+    font-size: 16px; 
+    font-weight: 600; 
+    text-align: center;
+
+    margin-top: 9px;
+}
+
+.info-card-secondary-text{
+    font-size: 13px; 
+    color:rgb(36, 36, 36); 
+    
+    margin-top: 3px;
+}
+
+.open-hours-card img{
+    width: 40px; 
+}
+
+.location-card-icon,
+.contact-card-icon{
+    height:40px;
+    width: 40px;
+
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+
+    background-color: #F48E28;
+    border-radius: 50%;
+}
+
+.location-card-icon img,
+.contact-card-icon img{
+    width: 55%; 
+}
+
+
+
+.note{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(243, 103, 103);
+
+    margin-top: 100px;
+}
