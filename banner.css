@@ -63,7 +63,8 @@
 .banner{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    column-gap: 100px;
     align-items: center;
 
 }
@@ -273,14 +274,4 @@
 .location-card-icon img,
 .contact-card-icon img{
     width: 55%; 
-}
-
-
-
-.note{
-    font-size: 30px;
-    font-weight: 600;
-    color: rgb(243, 103, 103);
-
-    margin-top: 100px;
-}
+} 

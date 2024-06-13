@@ -7,10 +7,14 @@
 
     <link rel="stylesheet" href="banner.css" />
     <link rel="stylesheet" href="root.css" />
+    <link rel="stylesheet" href="main.css" />
 </head>
 
 
 <body>
+    <script src="./script.js"></script>
+
+
     <section class="nav-bar">
         <div class="nav-bar-logo">
             <img src="./icons/logo-1.png">
@@ -109,10 +113,241 @@
         </div>
     </section>
 
-    <div class="note">
-        Rest of the Assignment will be completed soon... <br>
-        (Working on it)
-    </div>
+    <section class="menu-container">
+        <div class="menu-title">
+            <p>Product</p>
+
+            Most Polular Items
+        </div> 
+
+        <div id="menu-1" class="menu">
+            <div class="menu-item">
+                <div class="menu-item-img">
+                    <img src="./images/menu/mutton biryani.jpg">
+                </div>
+
+                <div class="menu-item-texts">
+                    <div class="menu-item-texts-left">
+                        <div class="dish-name">Mutton Biryani</div>
+
+                        <button class="add-to-cart-button">Add To Cart</button>
+                    </div>
+
+                    <div class="menu-item-texts-right">
+                        <div class="item-rating">
+                            <img src="./icons/star-icon.png">
+
+                            5.0
+                        </div>
+
+                        <div class="item-price">
+                            ৳450
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="menu-item-img">
+                    <img src="./images/menu/chicken biryani.jpg">
+                </div>
+
+                <div class="menu-item-texts">
+                    <div class="menu-item-texts-left">
+                        <div class="dish-name">Chicken Biryani</div>
+
+                        <button class="add-to-cart-button">Add To Cart</button>
+                    </div>
+
+                    <div class="menu-item-texts-right">
+                        <div class="item-rating">
+                            <img src="./icons/star-icon.png">
+
+                            4.7
+                        </div>
+
+                        <div class="item-price">
+                            ৳200
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="menu-item-img">
+                    <img src="./images/menu/tandoori.jpg">
+                </div>
+
+                <div class="menu-item-texts">
+                    <div class="menu-item-texts-left">
+                        <div class="dish-name">Chicken Tandoori</div>
+
+                        <button class="add-to-cart-button">Add To Cart</button>
+                    </div>
+
+                    <div class="menu-item-texts-right">
+                        <div class="item-rating">
+                            <img src="./icons/star-icon.png">
+
+                            4.8
+                        </div>
+
+                        <div class="item-price">
+                            ৳240
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="menu-item-img">
+                    <img src="./images/menu/burger.jpg">
+                </div>
+
+                <div class="menu-item-texts">
+                    <div class="menu-item-texts-left">
+                        <div class="dish-name">Beef Burger</div>
+
+                        <button class="add-to-cart-button">Add To Cart</button>
+                    </div>
+
+                    <div class="menu-item-texts-right">
+                        <div class="item-rating">
+                            <img src="./icons/star-icon.png">
+
+                            4.8
+                        </div>
+
+                        <div class="item-price">
+                            ৳200
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="menu-item-img">
+                    <img src="./images/menu/Mask group (2).png">
+                </div>
+
+                <div class="menu-item-texts">
+                    <div class="menu-item-texts-left">
+                        <div class="dish-name">Pizza</div>
+
+                        <button class="add-to-cart-button">Add To Cart</button>
+                    </div>
+
+                    <div class="menu-item-texts-right">
+                        <div class="item-rating">
+                            <img src="./icons/star-icon.png">
+
+                            4.7
+                        </div>
+
+                        <div class="item-price">
+                            ৳300
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="menu-item-img">
+                    <img src="./images/menu/Mask group (5).png">
+                </div>
+
+                <div class="menu-item-texts">
+                    <div class="menu-item-texts-left">
+                        <div class="dish-name">Green Salad</div>
+
+                        <button class="add-to-cart-button">Add To Cart</button>
+                    </div>
+
+                    <div class="menu-item-texts-right">
+                        <div class="item-rating">
+                            <img src="./icons/star-icon.png">
+
+                            4.2
+                        </div>
+
+                        <div class="item-price">
+                            ৳110
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <button class="see-more-products-button" onclick="showMoreProducts()">
+            See More Products
+        </button>
+    </section>
+
+    <section class="services-container">
+        <div class="menu-title">
+            <p>Services</p>
+
+            Why Choose Our Food
+        </div>
+
+        <div class="services">
+            <div class="service-card">
+                <div class="service-img">
+                    <img src="./icons/quality.png">
+                </div>
+
+                <div class="service-name">
+                    Qualityfull Food
+                </div>
+
+                <div class="service-des">
+                    Our very first priorty is making sure our customers are getting 
+                    fresh and qualityfull food anytime they order.
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-img">
+                    <img src="./icons/healthy.png">
+                </div>
+
+                <div class="service-name">
+                    Healthy Food
+                </div>
+
+                <div class="service-des">
+                    Our chefs and stuffs are strictly bound to use healthy ingredients 
+                    and maintain hygiene in every single step of preparing the dishes.
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-img">
+                    <img src="./icons/delivery.png">
+                </div>
+
+                <div class="service-name">
+                    Fast Delivery
+                </div>
+
+                <div class="service-des">
+                    We always try to deliver the orders of our customers in instant,
+                    as well as taking the minimum delivery charge.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial-container"  
+                style="margin-top: 200px;">
+
+    </section>
     
 </body>
 </html>

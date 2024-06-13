@@ -5,10 +5,11 @@
     --secondary-background: rgb(63, 41, 6);
 
     --primary-font: black;
-    --secondary-font: rgb(245, 142, 33);
+    --secondary-font: rgb(232, 70, 12);
     --third-font: rgb(229, 229, 229);
 
     --button-color: #F48E28;
+    --button-hover-color: #ff8408;
 }
 
 
