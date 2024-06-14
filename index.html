@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="banner.css" />
     <link rel="stylesheet" href="root.css" />
     <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="footer.css" />
 </head>
 
 
@@ -344,9 +345,131 @@
         </div>
     </section>
 
-    <section class="testimonial-container"  
-                style="margin-top: 200px;">
+    <section class="testimonial-container">
+        <div class="menu-title">
+            <p>Testimonials</p>
 
+            What Our Satisfied Customers Said 
+        </div>
+
+        <div class="testimonials">
+            <div class="testimonial-left-arrow">
+                <img src="./icons/left-arrow.png">
+            </div>
+
+            <div class="testimonial-card">
+                <div class="testimonial-profile">
+                    <div class="profile-pic">
+                        <img src="./images/others/profile-pic.jpg">
+                    </div>
+
+                    <div class="profile-name">
+                        <p>Farhan Famim</p>
+
+                        Co-Founder
+                    </div>
+                </div>
+
+                <div class="testimonial-des">
+                    "I love this food delivery service! The meals are always fresh and 
+                    delicious, arriving promptly at my doorstep. It's incredibly 
+                    convenient, and the variety of cuisines keeps me excited for every
+                    order. Highly recommend to anyone looking for quality and 
+                    convenience!"
+                </div>
+            </div>
+
+            <div class="testimonial-right-arrow">
+                <img src="./icons/right-arrow.png">
+            </div>
+
+            <div class="testimonial-img">
+                <img src="./images/others/testimonial-img.png">
+            </div>
+        </div>
+
+    </section>
+
+    <section class="subscription-container">
+        <div class="subscription-img">
+            <img src="./images/others/subscription-img.png">
+        </div>
+
+        <div class="subscription-texts">
+            <h1>
+                Subscribe To Our Services
+            </h1>
+
+            <p>
+                Subscribe now to enjoy exclusive deals, personalized menu
+                recommendations, and timely updates on new dishes. Sign up 
+                today and savor the convenience of fresh, tasty food delivered 
+                right to your door!
+            </p>
+
+            <form onsubmit="handleContact(event)" class="subscribe-box">
+                    <input class="subscribe-input" name="email" type="email" placeholder="Type your email..." required>
+
+                    <button class="subscribe-button">Subscribe</button>
+            </form>
+
+            <div id="success_container">
+            </div>
+        </div>
+    </section>
+
+    <section class="footer-container">
+        <div class="footer-column-1">
+            <div class="footer-logo">
+                <img src="./icons/logo-1.png">
+            </div>
+
+            <p>
+                Welcome to Food Cart, your go-to destination for fresh, 
+                flavorful meals delivered right to your door. Experience culinary 
+                excellence and convenience with every order
+            </p>
+
+            <div class="social-icons">
+                <img src="./icons/Social Icons.png">
+            </div>
+        </div>
+
+        <div class="footer-column-2">
+            <h1>
+                Business Hours
+            </h1>
+
+            <p>
+                Sat-Thu: 9:00am - 11:00pm <br>
+                Fri: 2:00am - 12:30pm
+            </p>
+        </div>
+
+        <div class="footer-column-3">
+            <h1>
+                User Links
+            </h1>
+
+            <p>About Us</p>
+            <p>Contact Us</p>
+            <p>Order Delivery</p>
+            <p>Tax & Payment</p>
+            <p>Terms of Service</p>
+        </div>
+
+        <div class="footer-column-4">
+            <h1>
+                Contact Us
+            </h1>
+
+            <p>
+                Gulshan, Dhaka <br>
+                +88 017 000000 <br>
+                +88 017 000000 <br>
+                food-cart@gmail.com
+            </p>
+        </div>
     </section>
     
 </body>
